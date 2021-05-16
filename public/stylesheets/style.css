@@ -902,7 +902,7 @@ input[type="submit"] {
 
   #navbar {
     width: 30rem;
-    height: 100%;
+    height: 40rem;
     position: fixed;
     top: 0;
     right: -30rem;
@@ -992,9 +992,9 @@ input[type="submit"] {
     opacity: 1;
   }
 
-  #cover {
+  /* #cover {
     background-position: 80%;
-  }
+  } */
 
   #services {
     padding: 6rem 3rem 2rem;

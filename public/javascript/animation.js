@@ -10,9 +10,10 @@ document.addEventListener(
 );
 
 
-let showNavBar = false;
+
 
 function showNav() {
+    let showNavBar = "";
     const links = document.querySelectorAll(".nav-links li");
 
     showNavBar = !showNavBar;
