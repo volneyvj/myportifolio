@@ -428,6 +428,7 @@ main {
 .about_p {
   font-size: 1.9rem;
   font-family: 'Playfair Display', serif;
+  color: white;
 }
 
 .about_link:link,
@@ -548,6 +549,7 @@ main {
 .services--title {
   font-size: 3rem;
   text-transform: uppercase;
+  color:white;
 }
 
 .services--para {
@@ -882,10 +884,10 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 900px) {
-  #cover {
+  /* #cover {
     background-position: 80%;
     align-items: center;
-  }
+  } */
 
   /* .flip-card-front,
   .flip-card-back {
