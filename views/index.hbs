@@ -1,0 +1,378 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&family=Playfair+Display&display=swap" rel="stylesheet">      
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9c4058eea8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/stylesheets/style.css"/>
+        <title>VolneyKF Portfolio</title>
+    </head>
+
+    <body>
+        <aside id="side-nav">
+            <div class="side-nav-content">
+                <div class="side-nav-logo">
+                   <h4>VKF</h4>
+                </div>
+                <ul class="side-nav-social">
+                    <a href="https://www.linkedin.com/in/volney-koudsi-faustini/" target="_blank">
+                        <i class="fab fa-linkedin-in" title="Linkedin"></i>
+                    </a>
+                    <a href="https://github.com/volneyvj" target="_blank">
+                        <i class="fab fa-github" title="GitHub"></i>
+                    </a>
+                    <a href="https://www.codewars.com/users/volneyvj" target="_blank">
+                        <i class="fas fa-code" title="KATA CodeWars"></i>
+                    </a>
+                    <a href="https://www.instagram.com/volneyvj/" target="_blank">
+                        <i class="fab fa-instagram" title="Instagram"></i>
+                    </a>
+                    <a href="https://volney-resume.herokuapp.com/" target="_blank">
+                       <i class="far fa-file-alt" title="My Resume/CV"></i>
+                    </a>
+                </ul>
+            </div>
+        </aside>
+
+        <main>
+            <header id="header">
+                <nav id="navbar">
+                    <div class="nav-hamburger" onclick="showNav()">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                    <ul class="nav-links">
+
+                        <p class="sent-message">{{sentMessage}}</p>
+
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#services">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#hobbies">Hobbies</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="cover">
+                <div class="cover_content">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/volneypic.jpeg" alt="Me" style="width:80px;height:80px;">
+                                <h1 class="cover_title">Volney Koudsi Faustini</h1>
+                                <p class="cover_p">Full Stack Web Dev</p>
+                                <p class="cover_card">My Card</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="back_info">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>volney.faustini@gmail.com</span>
+                                    <hr>
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>
+                                        +55 (11) 99767-5854</span>
+                                    <hr>
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <span>
+                                        R. Dos Americanos, 185 - Barra Funda / São Paulo-SP
+                                    </span>
+                                    <hr>
+                                    <span>Citizenship: 
+                                   <img class="flags" src="/img/brasil.png" title="Brazil" alt="brasil">
+                                   <img class="flags" src="/img/italy.png" title="Italy" alt="italy">
+                                   </span>
+                                    <hr>
+                                    <a href="https://volney-resume.herokuapp.com/" target="_blank">Complete Resume / CV</a>
+                                </div>
+                    </div>
+                        
+                </div>
+                 <i class="fas fa-external-link-alt turn"></i>
+            </section>
+
+            {{!-- <section id="work">
+                <!-- <h2>My Work</h2> -->
+                <div class="work_card">
+                    <img src="img/bikes.jpeg" alt="card1">
+                </div>
+
+                <div class="work_card">
+                    <img src="img/houses.jpeg" alt="card1">
+                </div>
+
+                <div class="work_card">
+                    <img src="img/houses.jpeg" alt="card1">
+                </div>
+
+                <div class="work_card">
+                    <img src="img/houses.jpeg" alt="card1">
+                </div>
+
+                <div class="work_card">
+                    <img src="img/houses.jpeg" alt="card1">
+                </div>
+
+                <div class="work_card">
+                    <img src="img/houses.jpeg" alt="card1">
+                </div>
+            </section> --}}
+
+            <section id="about" class="">
+                <div class="about_img">
+                    <img src="img/volney.jpg" alt="me">
+                </div>
+                <div class="about_content">
+                    <h2 class="about_title">About Me</h2>
+                    <p class="about_p">
+                      I enjoy good logic, automation and programming, no matter what area or issue I'm dealing with. 
+                      Started using macro excel VBA then migrated to HTML, CSS, JS, SQL and now Bootcamp certified in Node, React, Express, MongoDB...
+                      <br><br>
+                      I say there's always a way you can change daily tasks from being boring and bureaucratic to useful and fast. 
+                      I find myself conscientious, orientated to details, combined with analytical thinking and with long term background experience. 
+                      <br>
+                      <br>Always collaborating at the organisation and projects whom I'm working with, aiming a way that processes and workflow stays clear and practical. 
+                      <br>   
+                      <span id="showRead"><a href="#about" onclick="showMore()" class="about_link">Read More</a></span>
+                      <span id="showMoreAbout" style="visibility: hidden;">
+           
+                      <br>Have being recognised as a very collaborative person and to have abilities with customers always aligned with technical matters and visualizing macro scenarios and previsions. 
+                      <br>These allowes me on entering and mixing into different departments, assuring processes runs in a way that is good for the whole sum. 
+                      <br><br>Graduated Bachelor Engineer in 2014 and maintaining focused on learning new subjects, in order to apply at my professionally life. And the portfolio continuous...
+                    <br>
+                    <span id=""><a href="#about" onclick="showMore()" class="about_link">Read Less</a></span>
+                    </span>
+                     </p>
+                  
+                    
+                </div>
+            </section>
+
+     <h2 class="projects_title">My Projects</h2>
+            <section id="services">
+                <!-- Service 1 -->
+             
+                <div class="service services__service-1">
+                    <h3 class="services--title services__service-1--title">
+                        BlocoB APP (React Project)
+                        </h3>
+                      <img src="/img/blocob.png" alt="blocob">
+                    <p class="services--para services__service-1--para">
+                        BlocoB is an Express REST built api social media that connects neighbors. You can add classifieds, 
+                        projects and services but only for your neighborhoohd (your zip code will be requested).
+                       <br> To see more: <a href="https://blocob.herokuapp.com/">https://blocob.herokuapp.com/</a>
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service services__service-2">
+                    <h3 class="services--title services__service-2--title">
+                       FreeStudents Project
+                    </h3>
+                    <img src="img/freestudents.png" alt="freestudents">
+                    <p class="services--para services__service-2--para">
+                        FreeStudents project is a platform that connects students and teachers without any kind of financial interests.
+                        Mainly used HandleBars and Express NODE combined with CSS, HTML and JavaScript.
+                        <br>
+                        To see more: <a href="https://freestudents.herokuapp.com/">https://freestudents.herokuapp.com/</a>
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service services__service-3">
+                    <h3 class="services--title services__service-3--title">
+                        IronHack's BootCamp Projects
+                    </h3>
+                    <img src="/img/githubrep.png" alt="my repos">
+                    <p class="services--para services__service-3--para">
+                        More than 50 projects concluded and certified during extensive bootcamp Full Stack course.
+                        Divided in 3 learning modules of Backend / FrontEnd tools. Focused on ReactJS.  
+                        See my github repositories: <a href="https://github.com/volneyvj?tab=repositories">here</a>
+                    </p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service services__service-4">
+                    <h3 class="services--title services__service-4--title">
+                        My First JS Game 
+                    </h3>
+                    <img src="/img/datecarmen.png" alt="date carmen game">
+                    <p class="services--para services__service-4--para">
+                        Created a simple retro JS project based on a 90's game where the main goal is to conquer 
+                        a girl and see if you get her number. It's fun, you should try it.
+                        <a href="https://volneyvj.github.io/dateCarmen/">Date Carmen Game</a>
+                    </p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service services__service-5">
+                    <h3 class="services--title services__service-5--title">
+                        My Resume in HTML/CSS
+                    </h3>
+                    <img src="/img/cvpage.png" alt="volney cv">
+                    <p class="services--para services__service-5--para">
+                      My Curriculum was designed using only HTML and CSS. If you`d like to use it as a template, 
+                      feel free to clone it and edit in your way. 
+                    <br>  <a href="https://github.com/volneyvj/resume">GitHub Link Here</a>
+                    </p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service services__service-6">
+                    <h3 class="services--title services__service-6--title">
+                       This Portifolio
+                    </h3>
+                    <img src="/img/portifolio.png" alt="portifolio">
+                    <p class="services--para services__service-6--para">
+                  If you`d like to check my coding for this portfolio, please feel free to clone it at my github page: 
+                  <a href="#">Link Here</a>
+                    </p>
+                </div>
+            </section>
+
+ <h2 class="skills_title">Skills</h2>
+            <section id="skills">
+                <div class="skills_1">
+                    <h3 class="skills_1_title">Tech Skills</h3>
+
+                    <h4>HTML / CSS</h4>
+                    <div class="skills__tech--progress">
+                        <span class="skills__tech--progress__1"></span>
+                    </div>
+
+                    <h4>SQL / MongoDB</h4>
+                    <div class="skills__tech--progress">
+                        <span class="skills__tech--progress__2"></span>
+                    </div>
+
+                    <h4>JavaScript (ES6)</h4>
+                    <div class="skills__tech--progress">
+                        <span class="skills__tech--progress__3"></span>
+                    </div>
+
+                    <h4>React / NodeJS </h4>
+                    <div class="skills__tech--progress">
+                        <span class="skills__tech--progress__4"></span>
+                    </div>
+                </div>
+
+                <div class="skills_2">
+                    <h3 class="skills_2_title">Soft Skills</h3>
+
+                    <h4>Problem Solver</h4>
+                    <div class="skills__soft--progress">
+                        <span class="skills__soft--progress__1"></span>
+                    </div>
+
+                    <h4>Critical Thinking</h4>
+                    <div class="skills__soft--progress">
+                        <span class="skills__soft--progress__2"></span>
+                    </div>
+
+                    <h4>Communication</h4>
+                    <div class="skills__soft--progress">
+                        <span class="skills__soft--progress__3"></span>
+                    </div>
+
+                    <h4>Empathy</h4>
+                    <div class="skills__soft--progress">
+                        <span class="skills__soft--progress__4"></span>
+                    </div>
+                </div>
+            </section>
+
+  <h2 class="hobbies_title">My Hobbies</h2>
+            <section id="hobbies">
+                <div class="hobbies_card">
+                    <div class="hobbies_card_img">
+                        <img src="img/bikes.jpeg" alt="bike">
+                    </div>
+                    <div class="hobbies_card_content">
+                        <h3>Bike Cycling</h3>
+                        
+                    </div>
+                </div>
+
+                <div class="hobbies_card">
+                    <div class="hobbies_card_img">
+                        <img src="img/paris.jpeg" alt="paris">
+                    </div>
+                    <div class="hobbies_card_content">
+                        <h3>Photography</h3>
+                    </div>
+                </div>
+
+                <div class="hobbies_card">
+                    <div class="hobbies_card_img">
+                        <img src="img/chapada.jpeg" alt="chapada">
+                    </div>
+                    <div class="hobbies_card_content">
+                        <h3>Hiking and Trails</h3>
+                    </div>
+                </div>
+
+                <div class="hobbies_card">
+                    <div class="hobbies_card_img">
+                        <img src="img/noahze.jpg" alt="noah">
+                    </div>
+                    <div class="hobbies_card_content">
+                        <h3>Family and Friends</h3>
+                    </div>
+                </div>
+
+                      <div class="hobbies_card">
+                    <div class="hobbies_card_img">
+                        <img src="img/southafrica.jpeg" alt="southafrica">
+                    </div>
+                    <div class="hobbies_card_content">
+                        <h3>Travelling</h3>
+                    </div>
+                </div>
+
+                      <div class="hobbies_card">
+                    <div class="hobbies_card_img">
+                        <img src="img/guinness.jpeg" alt="guinness">
+                    </div>
+                    <div class="hobbies_card_content">
+                        <h3>Good Beer!</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <form class="contact_form" action="/send" method="POST">
+                    <label>Hire me!</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name"/>
+                    <input type="email" placeholder="You E-mail" name="email" id="email"/>
+                    <input type="text" placeholder="Subject" name="subject" id="subject"/>
+                    <textarea name="message" placeholder="Any message" id="message"></textarea>
+                    <input type="submit" value="Submit"/>
+                </form>
+            </section>
+        </main>
+
+   
+    </body>
+  <script src="/javascript/animation.js"></script>
+</html>
