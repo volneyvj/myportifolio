@@ -8,7 +8,7 @@
 
 ## Fell Free to use it
 
-It's not a template but you may clone it and edit as you wish to start your portifolio page.
+It's not a template but you may clone it and edit as you wish to start your portfolio page.
 
 ## Contact
 
